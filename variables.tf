@@ -3,9 +3,9 @@ variable "env" {
   description = "Environment"
 }
 
-variable "account_id" {
-  default     = "022696592384"
-  description = "AWS account ID"
+variable "random_uuid" {
+  default     = "fa37a7ec"
+  description = "Random UUID to ensure uniqueness"
 }
 
 variable "aws_region" {

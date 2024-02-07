@@ -1,6 +1,6 @@
 # AWS S3 bucket resource for storing various objects
 resource "aws_s3_bucket" "s3_bucket" {
-  bucket = "bixtech-${var.env}-${var.account_id}-tf" # Bucket name constructed using variables for environment and account ID
+  bucket = "bixtech-${var.env}-${var.random_uuid}-tf" # Bucket name constructed using variables for environment and account ID
 }
 
 # AWS S3 folder for landing zone
